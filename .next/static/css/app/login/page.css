@@ -1,0 +1,65 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/frontend/login/login.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.login_container__E9uZ0 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bgSoft);
+}
+
+.login_form__PntAv {
+  background-color: var(--bg);
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login_form__PntAv h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--text);
+}
+
+.login_form__PntAv input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid var(--inputBorder);
+  border-radius: 5px;
+  background-color: var(--bgSoft);
+  color: var(--text);
+  font-size: 16px;
+}
+
+.login_form__PntAv input:focus {
+  border-color: var(--inputFocusBorder);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 102, 102, 0.2);
+}
+
+.login_form__PntAv button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login_form__PntAv button:hover {
+  background-color: var(--primaryHover);
+}
+
+

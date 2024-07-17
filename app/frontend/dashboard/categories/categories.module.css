@@ -1,0 +1,99 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #5d57c9;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.addButton:hover {
+  background-color: #4a46b5;
+  transform: scale(1.05);
+}
+
+.addButton:active {
+  background-color: #3a358c;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th, .table td {
+  padding: 20px;
+  text-align: left;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+
+.view {
+  background-color: teal;
+}
+
+.delete {
+  background-color: crimson;
+}
+
+
+.selectVisibility {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: var(--text);
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.selectVisibility:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.selectVisibility:focus {
+  outline: none;
+  border-color: #5d57c9;
+}
+
+.selectVisibility option {
+  padding: 10px;
+  background-color: #fff;
+  color: var(--text);
+}
